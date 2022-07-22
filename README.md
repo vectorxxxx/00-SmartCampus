@@ -1,0 +1,20 @@
+- MyBatisPlus
+    - `@TableName` / `@TableId`
+    - `IService<T>` / `ServiceImpl<M, T>` / `Page<T>`
+    - `baseMapper`
+    - `selectOne()` / `selectPage()` / `selectList()`
+    - `saveOrUpdate()` / `removeByIds()`
+- Swagger
+    - `@Api`
+    - `@ApiOperation`
+    - `@ApiParam`
+- Post 请求要使用 `@RequestBody` 获取请求体参数信息，Get 请求不需要
+- 文件上传
+    - `@RequestPart`
+    - `MultipartFile` / `transferTo()`
+- Lombok
+    - `@Data`
+    - `@AllArgsConstructor`
+    - `@NoArgsConstructor`
+- `public` 文件夹  
+
